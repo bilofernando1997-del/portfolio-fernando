@@ -15,10 +15,10 @@
 </template>
 
 <script setup>
-// Mes réseaux sociaux (LinkedIn à remplacer par mon profil)
+// Mes réseaux sociaux
 const reseaux = [
   { nom: 'GitHub', url: 'https://github.com/bilofernando1997-del', icone: '/images/github.svg' },
-  { nom: 'LinkedIn', url: 'https://www.linkedin.com/', icone: '/images/linkedin.svg' }
+  { nom: 'LinkedIn', url: 'https://www.linkedin.com/in/fernando-bilo-3055b7210/', icone: '/images/linkedin.svg' }
 ]
 
 // Date à modifier à chaque mise à jour du site
