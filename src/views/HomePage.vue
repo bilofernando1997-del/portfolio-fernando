@@ -29,7 +29,7 @@
         <!-- Un bouton pour que la carte soit accessible au clavier -->
         <button type="button" class="carte" @click="creationChoisie = creation">
           <img :src="creation.image" alt="" width="400" height="260">
-          <h3>{{ creation.titre }}</h3>
+          <span class="carte-titre">{{ creation.titre }}</span>
         </button>
       </li>
     </ul>
@@ -145,9 +145,12 @@ h1 {
   height: auto;
 }
 
-.carte h3 {
-  margin: 0;
+/* Titre de la carte (un <span>, car un titre <h3> est interdit dans un <button>) */
+.carte-titre {
+  display: block;
   padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: var(--bleu-nuit);
 }
 
