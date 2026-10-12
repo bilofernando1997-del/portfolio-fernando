@@ -1,7 +1,7 @@
 # Portfolio de Fernando Bilo
 
 Portfolio personnel réalisé avec **Vue.js 3** dans le cadre de ma formation de développeur Web et Mobile.
-Il présente mon profil, mes créations (CV, cahier des charges, site communautaire) et un formulaire de contact.
+Il présente mon profil, mes créations (CV, cahier des charges, ce portfolio) et un formulaire de contact.
 
 ## Technologies
 
