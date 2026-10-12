@@ -28,15 +28,14 @@ export const creations = [
   },
   {
     id: 3,
-    titre: 'Site communautaire',
-    date: '2026',
-    image: '/images/site-communautaire.svg',
-    photos: ['/images/site-communautaire.svg', '/images/site-detail.svg'],
-    description: 'Un site communautaire dynamique réalisé pendant ma formation.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    // À REMPLACER par l'adresse de ton site et de ton dépôt GitHub
-    lien: 'https://github.com/',
-    texteLien: 'Visiter le site',
-    github: 'https://github.com/'
+    titre: 'Ce portfolio',
+    date: 'Octobre 2026',
+    image: '/images/portfolio.svg',
+    photos: ['/images/portfolio.svg', '/images/portfolio-detail.svg'],
+    description: 'Le site que vous visitez : un portfolio réalisé avec Vue.js 3 et Vue Router, avec une modale dynamique, un formulaire de contact et une page 404.',
+    technologies: ['Vue.js 3', 'Vue Router', 'HTML5', 'CSS3 (Flexbox)', 'JavaScript', 'Git / GitHub'],
+    lien: 'https://github.com/bilofernando1997-del/portfolio-fernando',
+    texteLien: 'Voir le code sur GitHub',
+    github: ''
   }
 ]
